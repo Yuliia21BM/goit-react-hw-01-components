@@ -10,7 +10,16 @@ import { Box } from '../Box';
 
 export const Statistics = ({ title, stats }) => {
   return (
-    <Box mt="40px" textAlign="center" display="flex" flexDirection="column">
+    <Box
+      mt="40px"
+      textAlign="center"
+      display="flex"
+      flexDirection="column"
+      width="300px"
+      boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
+      ml="auto"
+      mr="auto"
+    >
       <StatTitle>{title}</StatTitle>
 
       <StatList>

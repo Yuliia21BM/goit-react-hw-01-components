@@ -9,13 +9,13 @@ export const StatTitle = styled.h2`
 
 export const StatList = styled.ul`
   display: flex;
-  justify-content: center;
   list-style: none;
+  width: 200px;
 `;
 
 export const StatItem = styled.li`
   border: ${p => p.theme.borders.normal} ${p => p.theme.colors.textDark};
-  padding: 10px 50px;
+  padding: 11px;
 `;
 
 export const StatLabel = styled.p`
