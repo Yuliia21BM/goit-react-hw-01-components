@@ -20,7 +20,7 @@ export const Statistics = ({ title, stats }) => {
       ml="auto"
       mr="auto"
     >
-      <StatTitle>{title}</StatTitle>
+      {title && <StatTitle>{title}</StatTitle>}
 
       <StatList>
         {stats.map(item => (
